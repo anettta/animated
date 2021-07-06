@@ -25,7 +25,7 @@
           <div class="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
               <a class="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap uppercase text-white" href="https://www.creative-tim.com/learning-lab/tailwindcss-starter-project#/presentation">
                 <!-- Nav Title -->
-                ANNA G - Trip to Mountains 
+                ANNA G - Animated Template 
               </a>
               <!-- Hamburger Menu (Mobile) -->
               <button class="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none" type="button" onclick="toggleNavbar('example-collapse-navbar')">
@@ -747,19 +747,7 @@
 </body>
 <!--AOS.js-->
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script>
-  AOS.init({
-    delay: 200,
-    duration: 1500,
-    once: false,
-    mirror: false
-  });
-</script>
+<script src="script.js"></script>
 <!-- Navigation Script -->
-<script>
-  function toggleNavbar(collapseID) {
-    document.getElementById(collapseID).classList.toggle("hidden");
-    document.getElementById(collapseID).classList.toggle("block");
-  }
-</script>
+<script src="navbar.js"></script>
 </html>
